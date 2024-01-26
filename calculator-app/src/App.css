@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #c5e4e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#parent-div {
+  width: 57.5rem;
+  height: 30.0625rem;
+  border-radius: 1.5625rem;
+  background: #fff;
+  box-shadow: 0px 32px 43px 0px rgba(79, 166, 175, 0.2);
+}
+#container {
+  width: 57.5rem;
+  height: 30.0625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#left-side-div {
+  width: 25.8125rem;
+  height: 26.0625rem;
+  border-radius: 0.9375rem;
+}
+#right-side-div {
+  width: 25.8125rem;
+  height: 26.0625rem;
+  border-radius: 0.9375rem;
+  background: #00474b;
+}
+
+.p-span {
+  width: 15rem;
+  display: flex;
+  align-items: center;
+  color: #5e7a7d;
+  font-family: "Space Mono";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0.37rem;
+  margin-top: 1.5rem;
+}
+
+#money-display svg {
+  width: 0.615rem;
+  height: 0.966rem;
+}
+.input-container {
+  position: relative;
+  display: inline-block;
+  width: 23.6875rem;
+  height: 3rem;
+  margin-bottom: 2rem;
+}
+
+.amount-input {
+  padding-left: 24px; /* Adjust the padding to match the SVG width */
+  width: 23.6875rem;
+  height: 3rem;
+  border-radius: 0.3125rem;
+  background: #f3f9fa;
+  color: #00474b;
+  text-align: right;
+  font-family: "Space Mono";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+}
+
+#money-display {
+  position: absolute;
+  left: 8px; /* Adjust the left position to align with the input */
+  top: 50%;
+  transform: translateY(-50%);
+}
+#tip-area p {
+  color: #5e7a7d;
+  font-family: "Space Mono";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 1rem;
+}
+#tip-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.tip-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7.3125rem;
+  height: 3rem;
+  border-radius: 0.3125rem;
+  background: #00474b;
+  color: #fff;
+  text-align: center;
+  font-family: "Space Mono";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#custom-tip,
+#custom-tip input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00474b;
+  width: 7.375rem;
+  height: 3rem;
+  text-align: center;
+  font-family: "Space Mono";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+}
+
+#people-area {
+  color: #5e7a7d;
+  font-family: "Space Mono";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 2.5rem;
+}
+.tip-card:hover {
+  cursor: pointer;
+  background: #9fe8df;
+  color: #00474b;
+}
+
+input:focus {
+  border-radius: 0.3125rem;
+  border: 2px solid #26c2ae !important;
+}
+#right-side-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#right-side-div h2 {
+  color: #fff;
+  font-family: "Space Mono";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#right-side-div p {
+  color: #7f9d9f;
+
+  font-family: "Space Mono";
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.right-side-span {
+  width: 20.8125rem;
+  height: 4.4375rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#div-tip-amount,
+#div-total-amount {
+  color: #26c2ae;
+  text-align: right;
+  font-family: "Space Mono";
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.0625rem;
+  width: 10rem;
+  border-radius: 0.9375rem;
+  background: #00474b;
+  border: none;
+}
+
+button {
+  width: 20.8125rem;
+  height: 3rem;
+  border-radius: 0.3125rem;
+  background: #26c2ae;
+  border: none;
+  margin-top: 9.5rem;
+}
+button:hover {
+  background: #9fe8df;
+  cursor: pointer;
+}
